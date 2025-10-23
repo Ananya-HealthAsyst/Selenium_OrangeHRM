@@ -26,10 +26,6 @@ public class SearchPage {
 
 	private WebElement userName;
 	
-	
-	
-
-	
 	public void userfill(String ename) {
 		wait.until(ExpectedConditions.visibilityOf(userName));
 		userName.sendKeys(ename);
